@@ -1,0 +1,16 @@
+<div class="container" fxLayout="row" fxfill>
+<mat-card class="card" class="mat-elevation-z9" *ngFor="let obra of obras$">
+  <img mat-card-image src="{{obra.url}}" alt="Foto da Obra">
+    <mat-card-header>
+      <mat-card-title>{{obra.tituloConstrucao}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>
+         {{obra.descricaoConstrucao}}
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-flat-button color="warn"><i class="material-icons">info</i> Informação</button>
+    </mat-card-actions>
+  </mat-card>
+</div>

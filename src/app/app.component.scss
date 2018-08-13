@@ -1,0 +1,28 @@
+content {
+    min-height: calc(100vh - 163px); //-120 porque é 60 do margin-top mais 60 do rodape
+    margin-top: 80px;
+    padding: 16px;
+}
+footer {
+    background: firebrick;
+    padding: 16px;
+    color: #FFFFFF;
+    text-align: end;
+}
+
+// .mat-grid-tile-header {
+//     display: flex;
+//     align-items: center;
+//     height: 50px;
+//     color: #fff;
+//     background: rgba(0,0,0,.38);
+//     overflow: hidden;
+//     padding: 0!important;
+//     position: absolute;
+//     left: 0;
+//     right: 0;
+// }
+// .container {
+//     margin-top: 100px;
+// }
+

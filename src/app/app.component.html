@@ -1,0 +1,37 @@
+<!-- <div fxLayout="column" fxLayout.xs="column" fxLayoutWrap> -->
+<header>
+  <app-topbar></app-topbar>
+</header>
+<div div fxLayout="row" fxLayoutAlign="space-between stretch">
+  <content>
+    <router-outlet></router-outlet>
+  </content>
+</div>
+<footer>
+  <span>
+    <small>
+      Adel Moral Arquitetura & Engenharia - 2002 -
+      <i class="material-icons" style="vertical-align: bottom; font-size: 16px; font-weight: bold">copyright</i> Todos os direitos reservados</small>
+  </span>
+</footer>
+
+
+<!-- <mat-grid-list  cols="1"rowHeight="1:2">
+  <mat-grid-tile
+    *ngFor="let tile of tiles"
+    [colspan]="tile.cols"
+    [rowspan]="tile.rows"
+    [style.background]="tile.color">
+
+  <mat-grid-tile-header>
+    <app-topbar></app-topbar>
+  </mat-grid-tile-header>
+
+    <router-outlet></router-outlet>
+
+  <mat-grid-tile-footer>
+    Aqui é o rodape
+  </mat-grid-tile-footer>
+
+  </mat-grid-tile>
+</mat-grid-list> -->
